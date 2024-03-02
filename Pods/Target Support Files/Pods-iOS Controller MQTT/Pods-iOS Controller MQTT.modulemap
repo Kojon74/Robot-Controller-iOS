@@ -1,0 +1,6 @@
+module Pods_iOS_Controller_MQTT {
+  umbrella header "Pods-iOS Controller MQTT-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Controller_MQTT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="INS-85-ejg">
+                                <rect key="frame" x="-37" y="172.5" width="254" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Acz-pU-FXz"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="forwwardBackward:" destination="BYZ-38-t0r" eventType="valueChanged" id="dv7-Zc-QFH"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-DT-3Vh">
+                                <rect key="frame" x="380" y="172.5" width="254" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="an1-ps-hCi"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="yaw:" destination="BYZ-38-t0r" eventType="valueChanged" id="r3T-40-Dug"/>
+                                </connections>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t7e-33-fPJ">
+                                <rect key="frame" x="309" y="50" width="51" height="31"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="onTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="connectToggle:" destination="BYZ-38-t0r" eventType="valueChanged" id="pg9-Gf-lSa"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disconnected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MW6-4T-paL">
+                                <rect key="frame" x="273.5" y="15" width="120.5" height="24"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Tf7-DT-3Vh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4gg-Uw-dMe"/>
+                            <constraint firstItem="MW6-4T-paL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="EEk-GN-Mba"/>
+                            <constraint firstItem="t7e-33-fPJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jox-4s-p0n"/>
+                            <constraint firstItem="INS-85-ejg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ST3-pD-CsI"/>
+                            <constraint firstItem="MW6-4T-paL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VfB-7z-T8I"/>
+                            <constraint firstItem="t7e-33-fPJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="lYX-4t-qhK"/>
+                            <constraint firstItem="INS-85-ejg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-35" id="rLK-uk-RqC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tf7-DT-3Vh" secondAttribute="trailing" constant="35" id="zSS-ie-wJ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="connectLabel" destination="MW6-4T-paL" id="mDf-ja-P4v"/>
+                        <outlet property="connectToggle" destination="t7e-33-fPJ" id="Nan-6s-4jN"/>
+                        <outlet property="fBOutlet" destination="INS-85-ejg" id="zwd-1V-q9m"/>
+                        <outlet property="yawOutlet" destination="Tf7-DT-3Vh" id="wcF-xY-GSx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.121439280359823" y="136.80000000000001"/>
+        </scene>
+    </scenes>
+</document>

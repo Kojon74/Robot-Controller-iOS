@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8CC297C240ECBEA009C079D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CC297B240ECBEA009C079D /* AppDelegate.swift */; };
+		A8CC297E240ECBEA009C079D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CC297D240ECBEA009C079D /* SceneDelegate.swift */; };
+		A8CC2980240ECBEA009C079D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CC297F240ECBEA009C079D /* ViewController.swift */; };
+		A8CC2983240ECBEA009C079D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CC2981240ECBEA009C079D /* Main.storyboard */; };
+		A8CC2985240ECBEE009C079D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CC2984240ECBEE009C079D /* Assets.xcassets */; };
+		A8CC2988240ECBEE009C079D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CC2986240ECBEE009C079D /* LaunchScreen.storyboard */; };
+		F0D05E6E9ED900F6569C3C11 /* libPods-iOS Controller MQTT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E293CF7BC93D05E79785921 /* libPods-iOS Controller MQTT.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		126CAFBF23A988AC38EDE335 /* Pods-iOS Controller MQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Controller MQTT.release.xcconfig"; path = "Target Support Files/Pods-iOS Controller MQTT/Pods-iOS Controller MQTT.release.xcconfig"; sourceTree = "<group>"; };
+		1E293CF7BC93D05E79785921 /* libPods-iOS Controller MQTT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Controller MQTT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62511CD8E602DCF014C41B4B /* Pods-iOS Controller MQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Controller MQTT.debug.xcconfig"; path = "Target Support Files/Pods-iOS Controller MQTT/Pods-iOS Controller MQTT.debug.xcconfig"; sourceTree = "<group>"; };
+		A8CC2978240ECBEA009C079D /* iOS Controller MQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Controller MQTT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CC297B240ECBEA009C079D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8CC297D240ECBEA009C079D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8CC297F240ECBEA009C079D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8CC2982240ECBEA009C079D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8CC2984240ECBEE009C079D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CC2987240ECBEE009C079D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CC2989240ECBEE009C079D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CC2975240ECBEA009C079D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D05E6E9ED900F6569C3C11 /* libPods-iOS Controller MQTT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132E51DE4D6773AE8860D48D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E293CF7BC93D05E79785921 /* libPods-iOS Controller MQTT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375DE134853160DC4C03999F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62511CD8E602DCF014C41B4B /* Pods-iOS Controller MQTT.debug.xcconfig */,
+				126CAFBF23A988AC38EDE335 /* Pods-iOS Controller MQTT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8CC296F240ECBEA009C079D = {
+			isa = PBXGroup;
+			children = (
+				A8CC297A240ECBEA009C079D /* iOS Controller MQTT */,
+				A8CC2979240ECBEA009C079D /* Products */,
+				375DE134853160DC4C03999F /* Pods */,
+				132E51DE4D6773AE8860D48D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CC2979240ECBEA009C079D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CC2978240ECBEA009C079D /* iOS Controller MQTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CC297A240ECBEA009C079D /* iOS Controller MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				A8CC297B240ECBEA009C079D /* AppDelegate.swift */,
+				A8CC297D240ECBEA009C079D /* SceneDelegate.swift */,
+				A8CC297F240ECBEA009C079D /* ViewController.swift */,
+				A8CC2981240ECBEA009C079D /* Main.storyboard */,
+				A8CC2984240ECBEE009C079D /* Assets.xcassets */,
+				A8CC2986240ECBEE009C079D /* LaunchScreen.storyboard */,
+				A8CC2989240ECBEE009C079D /* Info.plist */,
+			);
+			path = "iOS Controller MQTT";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CC2977240ECBEA009C079D /* iOS Controller MQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CC298C240ECBEE009C079D /* Build configuration list for PBXNativeTarget "iOS Controller MQTT" */;
+			buildPhases = (
+				1486A8B0D88F7B08BECB1761 /* [CP] Check Pods Manifest.lock */,
+				A8CC2974240ECBEA009C079D /* Sources */,
+				A8CC2975240ECBEA009C079D /* Frameworks */,
+				A8CC2976240ECBEA009C079D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Controller MQTT";
+			productName = "iOS Controller MQTT";
+			productReference = A8CC2978240ECBEA009C079D /* iOS Controller MQTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CC2970240ECBEA009C079D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ken Johnson";
+				TargetAttributes = {
+					A8CC2977240ECBEA009C079D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A8CC2973240ECBEA009C079D /* Build configuration list for PBXProject "iOS Controller MQTT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CC296F240ECBEA009C079D;
+			productRefGroup = A8CC2979240ECBEA009C079D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CC2977240ECBEA009C079D /* iOS Controller MQTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CC2976240ECBEA009C079D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CC2988240ECBEE009C079D /* LaunchScreen.storyboard in Resources */,
+				A8CC2985240ECBEE009C079D /* Assets.xcassets in Resources */,
+				A8CC2983240ECBEA009C079D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1486A8B0D88F7B08BECB1761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Controller MQTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CC2974240ECBEA009C079D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CC2980240ECBEA009C079D /* ViewController.swift in Sources */,
+				A8CC297C240ECBEA009C079D /* AppDelegate.swift in Sources */,
+				A8CC297E240ECBEA009C079D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8CC2981240ECBEA009C079D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CC2982240ECBEA009C079D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8CC2986240ECBEE009C079D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CC2987240ECBEE009C079D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CC298A240ECBEE009C079D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8CC298B240ECBEE009C079D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CC298D240ECBEE009C079D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62511CD8E602DCF014C41B4B /* Pods-iOS Controller MQTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ8MH646U2;
+				INFOPLIST_FILE = "iOS Controller MQTT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken-Johnson.iOS-Controller-MQTT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CC298E240ECBEE009C079D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126CAFBF23A988AC38EDE335 /* Pods-iOS Controller MQTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ8MH646U2;
+				INFOPLIST_FILE = "iOS Controller MQTT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ken-Johnson.iOS-Controller-MQTT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CC2973240ECBEA009C079D /* Build configuration list for PBXProject "iOS Controller MQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CC298A240ECBEE009C079D /* Debug */,
+				A8CC298B240ECBEE009C079D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CC298C240ECBEE009C079D /* Build configuration list for PBXNativeTarget "iOS Controller MQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CC298D240ECBEE009C079D /* Debug */,
+				A8CC298E240ECBEE009C079D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8CC2970240ECBEA009C079D /* Project object */;
+}
